@@ -22,7 +22,11 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <RSSViewer />
+        <Text
+          style={{ fontFamily: "MontserratAlternates-Light", fontSize: 32 }}
+        >
+          Ravi is making an awesome App!
+        </Text>
       </View>
     );
   }
@@ -33,7 +37,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#F5FCFF"
+    backgroundColor: "#80deea"
   },
   welcome: {
     fontSize: 20,
