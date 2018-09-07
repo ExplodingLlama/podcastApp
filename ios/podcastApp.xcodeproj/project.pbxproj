@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -13,6 +14,7 @@
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* podcastAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* podcastAppTests.m */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		1380807D84434F9B8095C002 /* libRNPlayAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA7AA5FE440487E93293A95 /* libRNPlayAudio.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
@@ -21,6 +23,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		211E70944D254816935A51A2 /* MontserratAlternates-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9AC652550F40FC8C94C762 /* MontserratAlternates-Bold.otf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -34,15 +37,16 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* podcastAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* podcastAppTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		2F96EA5C2141923400F494B5 /* libStreamingKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F96EA5B214191FF00F494B5 /* libStreamingKit.a */; };
+		5A295A9AF2594D6187E6AA1E /* MontserratAlternates-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 79BC2C1265564E3AA3072BC4 /* MontserratAlternates-Light.otf */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		211E70944D254816935A51A2 /* MontserratAlternates-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7C9AC652550F40FC8C94C762 /* MontserratAlternates-Bold.otf */; };
 		B80AAA5F7EF6429689AA59EE /* MontserratAlternates-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 03150B7675274B1E8096C320 /* MontserratAlternates-ExtraLight.otf */; };
-		DE08A9B9826E4ABBB2C9C2D4 /* MontserratAlternates-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 398A84FC26E84F3798391388 /* MontserratAlternates-Italic.otf */; };
-		5A295A9AF2594D6187E6AA1E /* MontserratAlternates-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 79BC2C1265564E3AA3072BC4 /* MontserratAlternates-Light.otf */; };
-		E5641A9DE5A5429D87E6CEF3 /* MontserratAlternates-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2358CF5B204740BDB8A4E46A /* MontserratAlternates-Medium.otf */; };
 		C1A7F4640FF4456F919643B3 /* MontserratAlternates-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E5CA70FDF9024A59AA551DC8 /* MontserratAlternates-Regular.otf */; };
+		DE08A9B9826E4ABBB2C9C2D4 /* MontserratAlternates-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 398A84FC26E84F3798391388 /* MontserratAlternates-Italic.otf */; };
+		E5641A9DE5A5429D87E6CEF3 /* MontserratAlternates-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2358CF5B204740BDB8A4E46A /* MontserratAlternates-Medium.otf */; };
+		FAD1EA9B55F84DB093ED4995 /* libReactNativeAudioStreaming.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B69DD81A93F497A9DDA025A /* libReactNativeAudioStreaming.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -193,6 +197,34 @@
 			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
 			remoteInfo = "privatedata-tvOS";
 		};
+		2F96EA4E2141919900F494B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2F55922209448159467F847 /* ReactNativeAudioStreaming.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = ReactNativeAudioStreaming;
+		};
+		2F96EA512141919900F494B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59F5871DC02541C2878DC6E0 /* RNPlayAudio.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNPlayAudio;
+		};
+		2F96EA58214191FF00F494B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F96EA53214191FF00F494B5 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D796608261BE7EF75B9CA099BE45490;
+			remoteInfo = "Pods-ReactNativeAudioStreaming";
+		};
+		2F96EA5A214191FF00F494B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F96EA53214191FF00F494B5 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8354B6B10F10687EE626DF43663B075A;
+			remoteInfo = StreamingKit;
+		};
 		3DAD3E831DF850E9000B6D8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
@@ -331,6 +363,7 @@
 		00E356EE1AD99517003FC87E /* podcastAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = podcastAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* podcastAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = podcastAppTests.m; sourceTree = "<group>"; };
+		03150B7675274B1E8096C320 /* MontserratAlternates-ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-ExtraLight.otf"; path = "../assets/fonts/MontserratAlternates-ExtraLight.otf"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* podcastApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = podcastApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -341,19 +374,23 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = podcastApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = podcastApp/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		2358CF5B204740BDB8A4E46A /* MontserratAlternates-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-Medium.otf"; path = "../assets/fonts/MontserratAlternates-Medium.otf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* podcastApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "podcastApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* podcastApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "podcastApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F96EA53214191FF00F494B5 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = "../node_modules/react-native-audio-stream/ios/Pods/Pods.xcodeproj"; sourceTree = "<group>"; };
+		398A84FC26E84F3798391388 /* MontserratAlternates-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-Italic.otf"; path = "../assets/fonts/MontserratAlternates-Italic.otf"; sourceTree = "<group>"; };
+		3B69DD81A93F497A9DDA025A /* libReactNativeAudioStreaming.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libReactNativeAudioStreaming.a; sourceTree = "<group>"; };
+		59F5871DC02541C2878DC6E0 /* RNPlayAudio.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNPlayAudio.xcodeproj; path = "../node_modules/react-native-play-audio/ios/RNPlayAudio.xcodeproj"; sourceTree = "<group>"; };
+		5DA7AA5FE440487E93293A95 /* libRNPlayAudio.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNPlayAudio.a; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		79BC2C1265564E3AA3072BC4 /* MontserratAlternates-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-Light.otf"; path = "../assets/fonts/MontserratAlternates-Light.otf"; sourceTree = "<group>"; };
+		7C9AC652550F40FC8C94C762 /* MontserratAlternates-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-Bold.otf"; path = "../assets/fonts/MontserratAlternates-Bold.otf"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		A2F55922209448159467F847 /* ReactNativeAudioStreaming.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeAudioStreaming.xcodeproj; path = "../node_modules/react-native-audio-stream/ios/ReactNativeAudioStreaming.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		7C9AC652550F40FC8C94C762 /* MontserratAlternates-Bold.otf */ = {isa = PBXFileReference; name = "MontserratAlternates-Bold.otf"; path = "../assets/fonts/MontserratAlternates-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		03150B7675274B1E8096C320 /* MontserratAlternates-ExtraLight.otf */ = {isa = PBXFileReference; name = "MontserratAlternates-ExtraLight.otf"; path = "../assets/fonts/MontserratAlternates-ExtraLight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		398A84FC26E84F3798391388 /* MontserratAlternates-Italic.otf */ = {isa = PBXFileReference; name = "MontserratAlternates-Italic.otf"; path = "../assets/fonts/MontserratAlternates-Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		79BC2C1265564E3AA3072BC4 /* MontserratAlternates-Light.otf */ = {isa = PBXFileReference; name = "MontserratAlternates-Light.otf"; path = "../assets/fonts/MontserratAlternates-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2358CF5B204740BDB8A4E46A /* MontserratAlternates-Medium.otf */ = {isa = PBXFileReference; name = "MontserratAlternates-Medium.otf"; path = "../assets/fonts/MontserratAlternates-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		E5CA70FDF9024A59AA551DC8 /* MontserratAlternates-Regular.otf */ = {isa = PBXFileReference; name = "MontserratAlternates-Regular.otf"; path = "../assets/fonts/MontserratAlternates-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E5CA70FDF9024A59AA551DC8 /* MontserratAlternates-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MontserratAlternates-Regular.otf"; path = "../assets/fonts/MontserratAlternates-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,6 +406,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F96EA5C2141923400F494B5 /* libStreamingKit.a in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -382,6 +420,8 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				1380807D84434F9B8095C002 /* libRNPlayAudio.a in Frameworks */,
+				FAD1EA9B55F84DB093ED4995 /* libReactNativeAudioStreaming.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,6 +575,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2F96EA232141919600F494B5 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				5DA7AA5FE440487E93293A95 /* libRNPlayAudio.a */,
+				3B69DD81A93F497A9DDA025A /* libReactNativeAudioStreaming.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		2F96EA492141919700F494B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F96EA4F2141919900F494B5 /* libReactNativeAudioStreaming.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F96EA4B2141919700F494B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F96EA522141919900F494B5 /* libRNPlayAudio.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F96EA54214191FF00F494B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F96EA59214191FF00F494B5 /* libPods-ReactNativeAudioStreaming.a */,
+				2F96EA5B214191FF00F494B5 /* libStreamingKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -556,6 +630,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				2F96EA53214191FF00F494B5 /* Pods.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -568,6 +643,8 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				59F5871DC02541C2878DC6E0 /* RNPlayAudio.xcodeproj */,
+				A2F55922209448159467F847 /* ReactNativeAudioStreaming.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -590,6 +667,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				F64309DEB1894B70B4849354 /* Resources */,
+				2F96EA232141919600F494B5 /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -617,7 +695,7 @@
 			sourceTree = "<group>";
 		};
 		F64309DEB1894B70B4849354 /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				7C9AC652550F40FC8C94C762 /* MontserratAlternates-Bold.otf */,
 				03150B7675274B1E8096C320 /* MontserratAlternates-ExtraLight.otf */,
@@ -628,7 +706,6 @@
 			);
 			name = Resources;
 			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -742,6 +819,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 2F96EA54214191FF00F494B5 /* Products */;
+					ProjectRef = 2F96EA53214191FF00F494B5 /* Pods.xcodeproj */;
+				},
+				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
 				},
@@ -788,6 +869,14 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = 2F96EA492141919700F494B5 /* Products */;
+					ProjectRef = A2F55922209448159467F847 /* ReactNativeAudioStreaming.xcodeproj */;
+				},
+				{
+					ProductGroup = 2F96EA4B2141919700F494B5 /* Products */;
+					ProjectRef = 59F5871DC02541C2878DC6E0 /* RNPlayAudio.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -932,6 +1021,34 @@
 			fileType = archive.ar;
 			path = "libprivatedata-tvOS.a";
 			remoteRef = 2DF0FFEC2056DD460020B375 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2F96EA4F2141919900F494B5 /* libReactNativeAudioStreaming.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactNativeAudioStreaming.a;
+			remoteRef = 2F96EA4E2141919900F494B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2F96EA522141919900F494B5 /* libRNPlayAudio.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNPlayAudio.a;
+			remoteRef = 2F96EA512141919900F494B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2F96EA59214191FF00F494B5 /* libPods-ReactNativeAudioStreaming.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-ReactNativeAudioStreaming.a";
+			remoteRef = 2F96EA58214191FF00F494B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2F96EA5B214191FF00F494B5 /* libStreamingKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libStreamingKit.a;
+			remoteRef = 2F96EA5A214191FF00F494B5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */ = {
@@ -1204,9 +1321,19 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-play-audio/ios",
+					"$(SRCROOT)/../node_modules/react-native-audio-stream/ios/**",
+				);
 				INFOPLIST_FILE = podcastAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1221,9 +1348,19 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-play-audio/ios",
+					"$(SRCROOT)/../node_modules/react-native-audio-stream/ios/**",
+				);
 				INFOPLIST_FILE = podcastAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1239,6 +1376,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-play-audio/ios",
+					"$(SRCROOT)/../node_modules/react-native-audio-stream/ios/**",
+				);
 				INFOPLIST_FILE = podcastApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1256,6 +1398,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-play-audio/ios",
+					"$(SRCROOT)/../node_modules/react-native-audio-stream/ios/**",
+				);
 				INFOPLIST_FILE = podcastApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1280,8 +1427,18 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-play-audio/ios",
+					"$(SRCROOT)/../node_modules/react-native-audio-stream/ios/**",
+				);
 				INFOPLIST_FILE = "podcastApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1306,8 +1463,18 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-play-audio/ios",
+					"$(SRCROOT)/../node_modules/react-native-audio-stream/ios/**",
+				);
 				INFOPLIST_FILE = "podcastApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1331,8 +1498,18 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-play-audio/ios",
+					"$(SRCROOT)/../node_modules/react-native-audio-stream/ios/**",
+				);
 				INFOPLIST_FILE = "podcastApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1356,8 +1533,18 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-play-audio/ios",
+					"$(SRCROOT)/../node_modules/react-native-audio-stream/ios/**",
+				);
 				INFOPLIST_FILE = "podcastApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",

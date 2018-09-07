@@ -4207,6 +4207,14 @@ react-is@^16.4.1:
   version "16.4.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.4.2.tgz#84891b56c2b6d9efdee577cc83501dfc5ecead88"
 
+react-native-audio-stream@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/react-native-audio-stream/-/react-native-audio-stream-2.6.1.tgz#e1ad0b80dd083905dc2a18872b5206f201dae7b0"
+
+react-native-play-audio@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/react-native-play-audio/-/react-native-play-audio-0.1.2.tgz#18fb5830d9233b193f676d3c2f7ca2162e7bbea6"
+
 react-native-rss-parser@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/react-native-rss-parser/-/react-native-rss-parser-1.2.0.tgz#758202bac84b4d9eb96621410460c8d89d1b9d98"
